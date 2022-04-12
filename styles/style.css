@@ -149,3 +149,23 @@ nav {
 .silderItem:nth-child(5) .sliderBg {
   background-color: red;
 }
+
+.silderItem:nth-child(1) .sliderPrice {
+  color: aqua;
+}
+
+.silderItem:nth-child(2) .sliderPrice {
+  color: purple;
+}
+
+.silderItem:nth-child(3) .sliderPrice {
+  color: blueviolet;
+}
+
+.silderItem:nth-child(4) .sliderPrice {
+  color: skyblue;
+}
+
+.silderItem:nth-child(5) .sliderPrice {
+  color: red;
+}
