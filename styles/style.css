@@ -129,3 +129,23 @@ nav {
   background-color: #fff;
   color: #111;
 }
+
+.silderItem:nth-child(1) .sliderBg {
+  background-color: aqua;
+}
+
+.silderItem:nth-child(2) .sliderBg {
+  background-color: purple;
+}
+
+.silderItem:nth-child(3) .sliderBg {
+  background-color: blueviolet;
+}
+
+.silderItem:nth-child(4) .sliderBg {
+  background-color: skyblue;
+}
+
+.silderItem:nth-child(5) .sliderBg {
+  background-color: red;
+}
