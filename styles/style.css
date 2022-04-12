@@ -56,3 +56,76 @@ nav {
   color: lightgrey;
   font-weight: 400;
 }
+
+.slider {
+  background: url("https://unsplash.com/photos/s-aktnfUOjs/download?force=true&w=2400");
+  /* background: url("https://unsplash.com/photos/AZtMXheXnWc/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQ5NzgwNTI2&force=true&w=2400"); */
+  background-size: cover;
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); */
+}
+
+.sliderWrapper {
+  display: flex;
+  width: 500vw;
+}
+
+.silderItem {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.sliderBg {
+  width: 750px;
+  height: 750px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.sliderImg {
+  z-index: 1;
+}
+
+.sliderTitle {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 900;
+  z-index: 1;
+}
+
+.sliderPrice {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: #fff;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 300;
+  border: 1px solid grey;
+  z-index: 1;
+}
+
+.buyButton {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  color: #fff;
+  background-color: #111;
+  border: 1px solid grey;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 900;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.buyButton:hover {
+  background-color: #fff;
+  color: #111;
+}
