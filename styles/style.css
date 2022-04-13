@@ -61,12 +61,14 @@ nav {
   background: url("https://unsplash.com/photos/s-aktnfUOjs/download?force=true&w=2400");
   /* background: url("https://unsplash.com/photos/AZtMXheXnWc/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjQ5NzgwNTI2&force=true&w=2400"); */
   background-size: cover;
-  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%); */
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+  overflow: hidden;
 }
 
 .sliderWrapper {
   display: flex;
   width: 500vw;
+  transition: all 1s ease-in-out;
 }
 
 .silderItem {
