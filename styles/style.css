@@ -272,6 +272,7 @@ label {
 .cardMainInfo {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 .cardInfo {
@@ -519,4 +520,156 @@ footer {
 .copyright {
   font-size: 14px;
   font-weight: 300;
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 20px;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .navBottom {
+    flex-wrap: wrap;
+  }
+
+  .slider {
+    clip-path: none;
+  }
+
+  .sliderImg {
+    width: 90%;
+  }
+  .sliderBg {
+    width: 90%;
+    height: 90%;
+  }
+  .sliderTitle {
+    display: none;
+  }
+  .sliderPrice {
+    top: unset;
+    bottom: -50px;
+    left: 0;
+    background-color: lightgray;
+  }
+
+  .buyButton {
+    top: 0;
+    right: 0;
+  }
+
+  .features {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .featureDesc {
+    height: 70px;
+  }
+
+  .product {
+    clip-path: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .productImg {
+    width: 80%;
+  }
+
+  .productDetails {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    position: relative;
+    top: 0;
+  }
+
+  .productTitle {
+    font-size: 50px;
+    margin: 5px;
+  }
+
+  .payment {
+    width: 265px;
+  }
+
+  .payInput {
+    width: 270px;
+  }
+
+  .cardMainInfo {
+    flex-direction: column;
+  }
+
+  .cardInfo {
+    width: 100%;
+  }
+
+  .payInput {
+    padding: 8px 0;
+  }
+
+  .payInput.sm {
+    width: 50px;
+    margin: 20px 0;
+    margin-right: 20px;
+  }
+
+  .gallery {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .galleryItem {
+    width: 100%;
+    padding: 0;
+  }
+
+  .galleryTitle {
+    font-size: 25px;
+  }
+
+  .newSeason {
+    flex-direction: column;
+  }
+
+  .nsImg {
+    height: 500px;
+  }
+
+  .nsButton {
+    margin: 35px 0;
+  }
+
+  .nsTitleSm {
+    margin-top: 35px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerLeft {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .footerRight {
+    width: 90%;
+    padding: 20px;
+    align-items: center;
+  }
+
+  .fInput {
+    width: 150px;
+  }
 }

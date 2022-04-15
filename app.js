@@ -143,6 +143,19 @@ close.addEventListener("click", () => {
   payment.style.display = "none";
 });
 
+//Slick
+$(".galleryItem").slick({
+  slidesToShow: 2,
+  slidesToScroll: 1,
+  mobileFirst: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: "unslick",
+    },
+  ],
+});
+
 //
 //
 // Card Input
