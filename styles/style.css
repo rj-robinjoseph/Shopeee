@@ -394,6 +394,8 @@ label {
 .gallery {
   padding: 50px;
   display: flex;
+  background: url(https://images.pexels.com/photos/1843717/pexels-photo-1843717.jpeg?cs=srgb&dl=pexels-steve-johnson-1843717.jpg&fm=jpg);
+  background-size: cover;
 }
 
 .galleryItem {
