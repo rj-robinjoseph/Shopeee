@@ -308,8 +308,13 @@ label {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2px;
+  padding: 3px;
   cursor: pointer;
+  border-radius: 50%;
+}
+
+.close:hover {
+  background-color: #111;
 }
 
 .payButton:hover {
@@ -384,4 +389,60 @@ label {
   background-color: gray;
   color: #111;
   border: 1px solid rgba(17, 17, 17, 0.5);
+}
+
+.gallery {
+  padding: 50px;
+  display: flex;
+}
+
+.galleryItem {
+  flex: 1;
+  padding: 50px;
+}
+
+.galleryImg {
+  width: 100%;
+}
+
+.newSeason {
+  display: flex;
+}
+
+.nsItem {
+  flex: 1;
+  background-color: #090708;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.nsImg {
+  width: 100%;
+  height: 600px;
+}
+
+.nsTitle {
+  font-size: 40px;
+}
+
+.nsTitleAnd {
+  margin: 0;
+}
+
+.nsButton {
+  margin-top: 50px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-style: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.nsButton:hover {
+  background-color: #fe434d;
 }
