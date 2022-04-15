@@ -446,3 +446,75 @@ label {
 .nsButton:hover {
   background-color: #fe434d;
 }
+
+footer {
+  display: flex;
+}
+
+.footerLeft {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+  padding: 50px;
+}
+
+.footerMenuTitle {
+  font-size: 16px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.fList {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fListItem {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  color: gray;
+}
+
+.footerRight {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerMenuTitleR {
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.fInput {
+  padding: 5px;
+  width: 200px;
+}
+
+.fbutton {
+  padding: 5px;
+  background-color: #090708;
+  color: #fff;
+  margin-left: -5px;
+}
+
+.fIcons {
+  display: flex;
+}
+
+.fIcon {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+.copyright {
+  font-size: 14px;
+  font-weight: 300;
+}
