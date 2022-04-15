@@ -142,7 +142,60 @@
         </div>
         <button class="productButton">BUY NOW</button>
       </div>
+      <div class="payment">
+        <h1 class="payTitle">Personal Information</h1>
+        <label for="">Name and Surname</label>
+        <input type="text" class="payInput" placeholder="Jhon Doe" />
+        <label for="">Contact Number</label>
+        <input type="text" class="payInput" placeholder="+1 234 5697" />
+        <label for="">Address</label>
+        <input
+          type="text"
+          class="payInput"
+          placeholder="Walton Street, Windsor , CA, 700053"
+        />
+        <h1 class="payTitle">Card Information</h1>
+        <div class="cardIcons">
+          <img src="./img/visa.png" alt="" class="cardIcon" />
+          <img src="./img/master.png" alt="" class="cardIcon" />
+        </div>
+        <input
+          class="payInput"
+          id="credit-card"
+          maxlength="16"
+          placeholder="Card Number"
+          autocomplete="off"
+          type="text"
+        />
+        <div class="cardMainInfo">
+          <div class="cardInfo">
+            <input
+              oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+              type="number"
+              placeholder="mm"
+              maxlength="2"
+              class="payInput sm"
+            />
+            <input
+              type="year"
+              id="datepicker"
+              placeholder="yyyy"
+              maxlength="4"
+              class="payInput sm"
+            />
+            <input
+              type="password"
+              placeholder="cvv"
+              maxlength="3"
+              class="payInput sm"
+            />
+          </div>
+          <button class="payButton">Checkout!</button>
+          <span class="close">X</span>
+        </div>
+      </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>
